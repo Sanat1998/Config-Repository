@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: passOutYear
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservices?useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+server:
+  port: 8082
+
+
