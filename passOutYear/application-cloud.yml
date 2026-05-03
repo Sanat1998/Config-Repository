@@ -16,8 +16,8 @@ server:
   port: 8082
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
 logging:
   level:
     root: info
