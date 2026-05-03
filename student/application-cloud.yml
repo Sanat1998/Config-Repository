@@ -19,4 +19,4 @@ eureka:
     fetch-registry: true
 logging:
   level:
-    root: debug
+    root: info
