@@ -18,4 +18,5 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
 logging:
-  level: debug
+  level:
+    root: debug

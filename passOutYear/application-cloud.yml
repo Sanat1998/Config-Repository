@@ -19,5 +19,6 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
 logging:
-  level: debug
+  level:
+    root: debug
 
