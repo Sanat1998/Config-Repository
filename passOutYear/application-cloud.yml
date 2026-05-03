@@ -1,6 +1,6 @@
 spring:
   application:
-    name: passOutYear
+    name: passoutyear
   datasource:
     url: jdbc:mysql://localhost:3306/microservices?useSSL=false&serverTimezone=UTC
     username: root
